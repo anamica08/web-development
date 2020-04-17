@@ -1,0 +1,68 @@
+.container {
+    border: 5px solid grey;
+    height: auto;
+    margin: 0 auto;
+    width: 85%;
+    padding: 17px 16px;
+    align-items: center;
+}
+
+.errorMessage {
+    color: red;
+    margin: 5px;
+}
+
+.form {
+    padding: 3px;
+    display: block;
+    width: 85%;
+}
+
+.arrayOfNumbers {
+    width: 50%;
+    height: 26px;
+    background: whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: solid underline;
+    margin: 60px;
+}
+
+.submitButton {
+    width: 20%;
+    height: 34px;
+}
+
+.output {
+    margin: 10px;
+    padding: 5px;
+}
+
+#nRMS,
+#pRMS,
+#RMS {
+    width: 100px;
+    height: 26px;
+    background: transparent;
+    border: none;
+    padding-right: 50px;
+    font-size: 16px;
+}
+
+@media(max-width:500px) {
+    .submitButton {
+        width: 25%;
+        height: 34px;
+    }
+    .output {
+        margin: auto;
+        padding: 0px;
+    }
+    .arrayOfNumbers {
+        width: 70%;
+        height: 26px;
+        background: whitesmoke;
+    }
+}
