@@ -1,16 +1,7 @@
 var count = 1;
 var input = document.getElementById("input");
 
-/*Execute a click on add button when the user releases 
-a key on the keyboard
-*/
-input.addEventListener("keyup", function(event) {
-    // Number 13 is the "Enter" key on the keyboard
-    if (event.keyCode === 13) {
-        // Trigger the ADD button element with a click
-        document.getElementById("add").click();
-    }
-});
+
 
 function changeStyle(event) {
     //select the activity button on which event is triggered.
@@ -72,3 +63,17 @@ removeButton.onclick = function() {
         }
     }
 }
+
+
+
+
+/*Execute a click on add button when the user releases 
+a key on the keyboard
+*/
+input.addEventListener("keyup", function(event) {
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+        // Trigger the ADD button element with a click
+        document.getElementById("add").click();
+    }
+});
