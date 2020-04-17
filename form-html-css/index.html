@@ -1,0 +1,127 @@
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        JOB APPLICATION FORM
+    </title>
+</head>
+
+<body>
+
+    <div class="header">
+        <b>APPLICATION FORM</b>
+    </div>
+
+    <!--Form-->
+    <div class="form">
+        <form action="post">
+            <table id="form">
+                <!--Input for Name of Applicant-->
+                <tr>
+                    <td>
+                        <label for="fname">Name:</label><br><br>
+                        <input type="text" id="fname" name="fname" placeholder="First name" required>
+                        <input type="text" id="mname" name="mname" placeholder="Middle name">
+                        <input type="text" id="lname" name="lname" placeholder="Last name">
+                    </td>
+                </tr>
+                <!--Input for gender-->
+                <tr>
+                    <td>
+                        <label>Gender:</label>&nbsp;&nbsp;
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+                <!--Input for DOB of Applicant-->
+                <tr>
+                    <td>
+                        <label for="birthday">DOB: </label><br><br>
+                        <input type="date" id="birthday" name="birthday" required>
+                    </td>
+                </tr>
+                <!--Input for Current Address of Applicant-->
+                <tr>
+                    <td>
+                        <label for="address">Current Address:</label> <br><br>
+                        <input type="text" id="address1" name="house_no" placeholder="House number,Street" maxlength="30" required>
+                        <br>
+                        <input type="text" id="address2" name="Locality" placeholder="Locality,Town" maxlength="50">
+                        <br>
+                        <input type="text" id="address3" name="City" placeholder="City" maxlength="50" required>
+                        <br>
+                        <input type="text" id="address4" name="State" placeholder="State" maxlength="50" required>
+                        <br>
+                        <input type="text" id="address5" name="Country" placeholder="Country" maxlength="50" required>
+                    </td>
+                </tr>
+                <!--Input for Email of Applicant-->
+                <tr>
+                    <td>
+                        <label for="email">Email:</label><br><br>
+                        <input type="email" id="email" name="email" placeholder="abc@gmail.com" required>
+                    </td>
+                </tr>
+                <!--Input for Phone number of Applicant-->
+                <tr>
+                    <td>
+                        <label for="phone">Mobile Number:</label>&nbsp;&nbsp;
+                        <select id="phone" name="code" required>
+                        <option value="+91">+91</option>
+                        <option value="00">00</option>
+                        <option value="+66">+66</option>
+                        <option value="+33">+33</option>
+                    </select>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" placeholder="000-0000-000" maxlength="10">
+
+                    </td>
+                </tr>
+                <!--Input for position applying for -->
+                <tr>
+                    <td>
+                        <label for="position">Applying for:</label>
+                        <br><br>
+                        <select id="position" name="position" required>
+                    <option value="Trainee">Trainee</option>
+                    <option value="Senior Developer">Senior Developer</option>
+                    <option value="Junior Developer">Junior Developer</option>
+                    <option value="Technical Lead">Technical Lead</option>
+                    </select>
+                    </td>
+                </tr>
+                <!--Input for uploading resume of Applicant-->
+                <tr>
+                    <td>
+                        <label for="resume">Upload resume:</label><br><br>
+                        <input type="file" id="resume" name="resume" required>
+                    </td>
+                </tr>
+                <!--Buttons-->
+                <tr id="button" colspan="3">
+                    <td>
+                        <input class="button" type="submit" value="Submit">
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <!--footer region-->
+    <footer>
+        <footer>
+            <p class="company"><img id="logo" src="assets/download.png" alt="Nagarro Software pvt. ltd." />
+                <b><br> plot no 36 & 37,
+                <br> Electronic City, Phase IV, Vihar, Sector 18, Gurugram, Haryana 122001 </p>
+            <p>Contact information: <a href="mailto:someone@example.com">someone@nagarro.com</a><br></p></b>
+        </footer>
+    </footer>
+</body>
+
+</html>

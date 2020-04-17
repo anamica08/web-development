@@ -1,0 +1,116 @@
+/*style for background image*/
+
+body {
+    background-image: url(assets/img1.jpg);
+}
+
+.header {
+    text-align: center;
+    color: #022036;
+    height: 81px;
+    margin-top: 70;
+    font-size: 40;
+    font-weight: 9;
+    margin-bottom: 20;
+    font-family: 'Crete Round', serif;
+}
+
+
+/*style for table containing form*/
+
+table {
+    border-spacing: 0 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form {
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid rgb(28, 117, 233);
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+#form {
+    align-items: center;
+}
+
+table tbody tr td {
+    font-size: 20px;
+    color: #635050;
+    ;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: solid 1px lightgrey;
+    background-color: #f1f1f1;
+}
+
+#position {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    border: solid 1px lightgrey;
+}
+
+#phone {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    border: solid 1px lightgrey;
+}
+
+label {
+    font-weight: bold;
+}
+
+#button {
+    text-align: center;
+}
+
+.button {
+    background-color: rgb(10, 135, 151);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+/*footer*/
+
+footer {
+    display: block;
+    margin: 12;
+    padding-top: 2;
+    text-align: start
+}
+
+.company {
+    font-size: 1em;
+}

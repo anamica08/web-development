@@ -1,0 +1,157 @@
+/*box property for whole html*/
+
+* {
+    box-sizing: border-box
+}
+
+
+/*background of page*/
+
+body {
+    background-image: url(assets/download.jfif);
+    background-size: auto;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+}
+
+.profile-picture {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.profile-picture #img {
+    border: 5px solid cadetblue;
+    position: absolute;
+    z-index: -1;
+    height: 210;
+}
+
+#cover-img {
+    width: -webkit-fill-available;
+    padding: 30;
+    margin: 1;
+    height: 250;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+
+/*window partitioning*/
+
+.row {
+    display: flex;
+    background-color: whitesmoke;
+    margin-top: 230;
+    border-radius: 40px;
+    padding: 30;
+}
+
+.left-column {
+    flex: 20%;
+    text-align: left;
+    padding: 20;
+    margin: 10;
+    height: 360px;
+    border-radius: 7px;
+    border: 1px solid cadetblue;
+    background-color: lightgrey;
+    box-shadow: 5px 10px 18px #888888;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.right-column {
+    flex: 50%;
+    text-align: left;
+    padding: 20;
+    margin: 10;
+    border-radius: 7px;
+    border: 1px solid cadetblue;
+    background-color: lightgrey;
+    box-shadow: 5px 10px 18px #888888;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* Container for skill bars */
+
+.container {
+    width: 80%;
+    background-color: #ddd;
+    border-radius: 30px;
+    margin-left: 20;
+}
+
+.skillbars {
+    padding-bottom: 10;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 30px;
+}
+
+.speaking {
+    width: 90%;
+    background-color: rgb(108, 139, 165);
+}
+
+.listening {
+    width: 80%;
+    background-color: rgb(108, 139, 165);
+}
+
+.Perseverance {
+    width: 85%;
+    background-color: rgb(108, 139, 165);
+}
+
+
+/*intrest tokens*/
+
+.intrests {
+    padding-bottom: 20px;
+}
+
+span {
+    border: solid 2px black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+
+
+/* footer */
+
+footer {
+    margin: 30;
+    border: lightgrey solid thin;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 7px;
+}
+
+
+/*To enable responsiveness*/
+
+@media only screen and (max-width: 860px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .left-column {
+        flex: 100%;
+    }
+    .right-column {
+        flex: 100%;
+    }
+}
