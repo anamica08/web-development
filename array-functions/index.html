@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RMS Calculator</title>
+</head>
+
+<body>
+    <h2>RMS Calculator</h2>
+    <div class="container">
+        <p id="errorMessage" class="errorMessage"></p>
+        <form action="post" class="form">
+            <input type="text" id="arrayOfNumbers" class="arrayOfNumbers" name="arrayOfNumbers" title="Enter comma separated values" placeholder="Enter comma separated numbers" required>
+            <input type="button" value="Submit" class="submitButton" id="submitButton" onclick="calculateRMS()">
+        </form>
+        <div class="output">
+            <div>n<sub>RMS</sub>=<input type="text" id="nRMS" readonly></div>
+            <div>p<sub>RMS</sub>= <input type="text" id="pRMS" readonly></div>
+            <div>Total<sub>RMS</sub>=<input type="text" id="RMS" readonly></div>
+        </div>
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
